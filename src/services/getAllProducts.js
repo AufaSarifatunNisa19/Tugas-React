@@ -1,0 +1,116 @@
+export default function getAllProducts() {
+  return [
+    {
+      id: 'DRE-2-01-FWOM-001',
+      slug: 'vintage-wool-skirt',
+      name: "Vintage Wool Skirt", 
+      category: "Women's Clothing", 
+      categorySlug: 'women-clothing', 
+      price: 329_000, 
+      stock: 100,
+      imageUrl: '/assets/images/VintageWoolSkirt.jpg',
+      description: `Embrace timeless elegance with the Vintage Wool Skirt. Crafted from soft, high-quality wool, this skirt offers both warmth and style, perfect for cooler days. The classic design features a flattering fit, making it an ideal addition to your wardrobe for both casual and semi-formal occasions. Pair it with your favorite top for a chic, vintage-inspired look that never goes out of style.`
+    },
+    {
+      id: 'ST-1-03-FWOMEN-003',
+      slug: 'spring-turkish-abaya-dress',
+      name: "Spring Turkish Abaya Dress",
+      category: "Women's Dress", 
+      categorySlug: 'women-dresses',
+      price: 255_800,
+      stock: 5,
+      imageUrl: '/assets/images/SpringTurkishAbayaDress.jpg',
+      description: `he Spring Turkish Abaya Dress combines elegance and comfort, perfect for the warmer months. Made from high-quality fabric, this abaya features delicate details and a flowing design that flatters the silhouette. Its soft, breathable material ensures you stay comfortable all day, while the classic Turkish design adds a touch of cultural sophistication.`
+    },
+    {
+      id: 'DRE-5-09-FWOM-007',
+      slug: 'snowy-sunday-sweater', 
+      name: 'Snowy Sunday Sweater',  
+      category: 'Sweaters',  
+      categorySlug: 'sweaters',  
+      price: 500_000,
+      stock: 100,
+      imageUrl: '/assets/images/SnowySunday.jpg', 
+      description: 'A cozy and stylish sweater, perfect for snowy days. Made with soft fabric to keep you warm and comfortable in cold weather.',
+    },    
+    {
+      id: 'SB-2-06-FWOMEN-004',
+      slug: 'dress-woman',
+      name: 'Dress Woman', 
+      category: "Women's Dress", 
+      categorySlug: 'women-dresses', 
+      price: 1_909_000,
+      stock: 0,
+      imageUrl: '/assets/images/DressWoman.jpg',
+      description: `The Dress Woman is a perfect blend of elegance and timeless style. Crafted from high-quality fabric, this dress offers a flattering fit and a graceful silhouette, making it an ideal choice for formal events or special occasions. Its sophisticated design ensures you make a statement wherever you go, while the durable material provides all-day comfort.`
+    },
+    {
+      id: 'PM-3-04-FWOMEN-003',
+      slug: 'pleated-maxi-dress',
+      name: 'Pleated Maxi Dress',
+      category: 'Maxi Dresses',
+      categorySlug: 'maxi-dresses',
+      price: 1_500_000,
+      stock: 0,
+      imageUrl: '/assets/images/PleatedAsymmetricalMaxiDress.jpg',
+      description: `CThe Pleated Maxi Dress exudes elegance and sophistication with its timeless pleated design. Perfect for both formal occasions and evening outings, this dress offers a flattering fit and flowing silhouette that enhances your natural curves. Crafted from high-quality fabric, it ensures comfort and durability while making a statement wherever you go.`
+    },
+    {
+        id: 'DRE-5-09-FWOM-007',
+        slug: 'beige-shorts',  
+        name: 'Beige Shorts',  
+        category: 'Shorts',  
+        categorySlug: 'shorts',  
+        price: 200_000,
+        stock: 100,
+        imageUrl: '/assets/images/BeigeShorts.jpg',  
+        description: 'Comfortable and stylish beige shorts, perfect for casual outings or summer days. Made with breathable fabric for maximum comfort.',    
+    },
+    {
+      id: 'DRE-1-02-FWOM-091',
+      slug: 'hanbook-dress',
+      name: 'Hanbook Dress',
+      category: 'Dresses',
+      categorySlug: 'dresses',
+      price: 380_000, 
+      stock: 30,
+      imageUrl: '/assets/images/DressHanbook.jpg',
+      description: `The Hanbook Dress is a timeless piece that combines classic charm with modern elegance. Designed with a flattering cut, this dress is perfect for both casual and semi-formal occasions. Crafted from soft, breathable fabric, it offers comfort without compromising style. The unique design adds a sophisticated touch, making it a must-have wardrobe staple for anyone who appreciates versatile and chic fashion.`
+    },
+    {
+      id: 'SB-2-09-FWOMEN-008',
+      slug: 'classy-fit-dress',
+      name: 'Classy Fit Dress',
+      category: "Women's Clothing", 
+      categorySlug: 'women-Clothing',
+      price: 255_800,
+      stock: 20,
+      imageUrl: '/assets/images/CLASSYYFIT.jpg',
+      description: `Step into style with the Classy Fit Dress, a perfect blend of elegance and comfort. With its flattering fit and timeless design, this dress is made to stand out at both casual and formal events. The classic cut, paired with bold details, brings a modern twist to traditional fashion. Crafted from high-quality fabric, it offers comfort and durability, ensuring you feel confident and stylish no matter the occasion.`
+    },
+    {
+      id: 'SB-2-06-FWOMEN-004',
+      slug: 'athleisure-woman',  
+      name: 'Athleisure Set',  
+      category: "Athleisure",  
+      categorySlug: 'athleisure',  
+      price: 1_209_000,
+      stock: 0,
+      imageUrl: '/assets/images/Atheleisure.jpg', 
+      description: "Elevate your comfort and style with this versatile Athleisure Set. Perfectly designed for both workouts and casual outings, this set combines function and fashion. Made from high-quality, breathable fabric, it offers a perfect fit, ensuring you stay comfortable all day. Whether you're hitting the gym or enjoying a laid-back day, this athleisure set provides the ultimate blend of style and performance.",
+    },
+    {
+      id: 'DRE-5-09-FWOM-007',
+      slug: 'casual-shorts',  
+      name: 'Casual Shorts',  
+      category: 'Casual Wear',  
+      categorySlug: 'casual-wear',  
+      price: 200_000,
+      stock: 100,
+      imageUrl: '/assets/images/Casual.jpg',  
+      description: 'Comfortable and stylish casual shorts, perfect for laid-back days. Made with lightweight fabric for all-day comfort, ideal for warm weather and casual outings.',
+    },
+  ];
+}
+
+
